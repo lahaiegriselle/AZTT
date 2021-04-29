@@ -2246,6 +2246,23 @@ a {
 .cid-svHeh3kor6 .title {
   color: #ffffff;
 }
+.cid-svXkJmRHMN {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/nls-1.jpeg");
+}
+.cid-svXkJmRHMN .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-svXkJmRHMN .mbr-section-title {
+  color: #e43f3f;
+  text-align: center;
+}
+.cid-svXkJmRHMN .mbr-section-subtitle {
+  color: #e43f3f;
+  text-align: center;
+}
 .cid-svHdExy7LY {
   padding-top: 75px;
   padding-bottom: 75px;

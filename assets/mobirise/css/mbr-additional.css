@@ -2359,6 +2359,25 @@ a {
 .cid-svHeh3kor6 .title {
   color: #ffffff;
 }
+.cid-sx749qhYg8 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-sx749qhYg8 .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sx749qhYg8 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-sx749qhYg8 .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
 .cid-svXkJmRHMN {
   padding-top: 6rem;
   padding-bottom: 6rem;

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "aztransactions",
-    "currentPage": "index.html",
+    "currentPage": "immobiler-ancien.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -2962,7 +2962,7 @@
         }
       ]
     },
-    "page1.html": {
+    "immobiler-ancien.html": {
       "settings": {
         "title": "AZtransactions-orpi.com  Estimations biens immobiliers sous 48h.",
         "meta_descr": "Des femmes et des hommes pour votre bien.\n\nOrpi AZ TRANSACTIONS est l'agence spécialisée dans le 18 ème arrondissement, en couvrant les quartiers de la Mairie, Simplon,Marcadet et les Abbesses\nPour vous aider à mener à bien  votre projet immobilier, notre agence immobiliere est ouverte du Lundi au Vendredi de 9h30 à 19h et le samedi de 10h à 18h.\nQue vous souhaitiez Vendre, Acheter, Louer ou mettre en Gestion Locative  un bien Immobilier  votre bien, notre équipe regroupe un ensemble de conseillers prêts à vous conseiller pour votre projet.",

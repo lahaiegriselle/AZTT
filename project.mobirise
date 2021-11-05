@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "aztransactions",
-    "currentPage": "index.html",
+    "currentPage": "immobiler-ancien.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -43,7 +43,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 96,
+    "uniqCompNum": 97,
     "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
@@ -3807,6 +3807,56 @@
           "_customHTML": "<section mbr-id=\"_slider_with_tab\" class=\"mbr-section slider_with_text_button\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f4f1f1\">\n      <input type=\"color\" title=\"Title Bg Color\" name=\"tbgColor\" value=\"#232323\">\n      <input type=\"color\" title=\"SubTitle Bg Color\" name=\"stbgColor\" value=\"#7f1933\">\n      <input type=\"color\" title=\"Indicator Bg Color\" name=\"inbgColor\" value=\"#7f1933\">\n      <input type=\"checkbox\" title=\"Show Title\" name=\"showtitle\" checked>\n      <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showsubtitle\" checked>\n      <input type=\"checkbox\" title=\"Show Navigator\" name=\"shownavi\" checked>\n      <select title=\"Content Width\" name=\"widthContent\">\n            <option value=\"1\">Full Width</option>\n            <option value=\"2\" selected>None Full Width</option>\n        </select>\n       <select title=\"Image Ratio\" name=\"imgratio\" mbr-if=\"widthContent == '1'\">\n            <option value=\"fill\" selected>Fill</option>\n            <option value=\"contain\">Contain</option>\n            <option value=\"cover\">Cover</option>\n        <option value=\"scale-down\">Scale down</option>\n                <option value=\"none\">None</option>\n        </select>\n      <select title=\"Slider Count\" name=\"slidercount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        <option value=\"4\" selected>4</option>\n        </select>\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n <div mbr-class=\"{ 'fullwidth': widthContent == 1, 'container': widthContent == 2}\">  \n\n\t\t\t<div id=\"myCarousel2singa\" class=\"carousel slide\" data-ride=\"carousel\">\n\t\t\t\t<!-- Wrapper for carousel items -->\n\t\t\t\t<div class=\"carousel-inner\">\n\t\t\t\t\t<div class=\"item carousel-item active\" mbr-if=\"slidercount > 0\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/9277064h.jpeg\" style=\"object-fit:{{imgratio}}\" alt=\"ancien rue ordener facade\">\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">27 rue ordener&nbsp;&nbsp;</h3>\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">DES&nbsp; PROGRAMMES&nbsp; IMMOBILIERS&nbsp; A DECOUVRIR&nbsp; DANS&nbsp; DES&nbsp; VILLES&nbsp; A&nbsp; AIMER&nbsp; &nbsp;</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\t\n\t\t\t\t\t<div class=\"item carousel-item\" mbr-if=\"slidercount > 1\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/9138778a.jpeg\" style=\"object-fit:{{imgratio}}\" alt=\"83 ordener\">\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">83 rue ordener&nbsp;&nbsp;</h3>\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">DÉCOUVREZ&nbsp; UN ENVIRONNEMENT PARISIEN A 3 MINUTES DE PARIS PAR LE METRO&nbsp;</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item carousel-item\" mbr-if=\"slidercount > 2\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/9272296a.jpeg\" style=\"object-fit:{{imgratio}}\" alt=\"85 orderner\">\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">85 rue ordener&nbsp;</h3>\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">De généreux espaces extérieurs&nbsp; balcons, loggias, terrasses / jardins&nbsp;</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"item carousel-item\" mbr-if=\"slidercount > 3\">\n\t\t\t\t\t\t<a href=\"https://youtu.be/PBa67YU6A34\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/az.jpg\" style=\"object-fit:{{imgratio}}\" alt></a>\n\t\t\t\t\t\t<div class=\"carousel-caption\">\n\t\t\t\t\t\t\t<h3 mbr-if=\"showtitle\">orpi az transactions&nbsp;</h3>\n\t\t\t\t\t\t\t<p mbr-if=\"showsubtitle\">C'EST AUSSI UN CHOIX IMPORTANT DE BIENS IMMOBILIERS DANS L'ANCIEN TOUJOURS AVEC L'EXPERTISE GARANTIE DU RÉSEAU ORPI</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<!-- End Carousel Inner -->\n\t\t\t\t<div class=\"nav nav-pills nav-justified carousel-indicators\" mbr-if=\"slidercount > 0\">\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"0\" class=\"nav-item active\" mbr-if=\"slidercount > 0\" mbr-text=\"\"><a href=\"#\" class=\"nav-link\"><b><span style=\"font-size: 13.9876px;\"><b>2 PIÈCES • 29.18 M2</b><br></span>REFAIT A NEUF</b></a></div>\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"1\" class=\"nav-item\" mbr-if=\"slidercount > 1\" mbr-text=\"\"><a href=\"#\" class=\"nav-link\"><strong>2 PIÈCES • 29.18 M²\n</strong><strong>PARIS 18ÈME</strong></a></div>\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"2\" class=\"nav-item\" mbr-if=\"slidercount > 2\" mbr-text=\"\"><a href=\"#\" class=\"nav-link\"><strong>2 pièces • 30.39 m²\n</strong><strong>TRAVERSANT</strong></a></div>\n\t\t\t\t\t<div data-target=\"#myCarousel2singa\" data-slide-to=\"3\" class=\"nav-item\" mbr-if=\"slidercount > 3\" mbr-text=\"\"><a href=\"#\" class=\"nav-link\"><strong>estimATION immo sous 48h</strong></a></div>\n                 \n\t\t\t\t</div>\n              <!-- Carousel controls -->\n\t\t\t\t<a class=\"carousel-control left carousel-control-prev\" href=\"#myCarousel2singa\" data-slide=\"prev\" mbr-if=\"slidercount > 1 &amp;&amp; shownavi\">\n\t\t\t\t\t<i class=\"fa fa-angle-left fas\"></i>\n\t\t\t\t</a>\n\t\t\t\t<a class=\"carousel-control right carousel-control-next\" href=\"#myCarousel2singa\" data-slide=\"next\" mbr-if=\"slidercount > 1 &amp;&amp; shownavi\">\n\t\t\t\t\t<i class=\"fa fa-angle-right fas\"></i>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t\n\t</div>\n \n  \n</section>",
           "_cid": "sE9MXKtRVm",
           "_anchor": "design-block-16",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".content-wrapper": {
+              "background": "@cardColor",
+              "@media (max-width: 991px)": {
+                ".row": {
+                  "flex-direction": "column-reverse"
+                },
+                ".image-wrapper": {
+                  "margin-bottom": "2rem"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "5rem 3rem",
+                ".text-wrapper": {
+                  "padding-right": "2rem"
+                }
+              }
+            },
+            ".image-wrapper img": {
+              "width": "100%",
+              "object-fit": "cover"
+            }
+          },
+          "_name": "features16",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"features15\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked=\"\">\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#fafafa\" selected=\"\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"content-wrapper\">\n            <div class=\"row align-items-center\">\n                <div class=\"col-12 col-lg\">\n                    <div class=\"text-wrapper\">\n                        <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <b>AZ Transactions</b></h6>\n                        <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Présents depuis 20 années da,s le XVIII eme arrondissement&nbsp;nous souhaitons nous impliquer activement dans des actions de\n<br>solidarité au niveau local.\n<br>\n<br>Cette année, nous avons prévu de collecter des jouets\n<br>auprès de nos clients. Nous avons tout naturellement pensé à l'association Emmaus pour profiter de cette collecte, que vous pourriez utiliser\n<br>dans vos centres à l’occasion des fêtes.</p>\n                        <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-warning\" href=\"tel:+33 1 42 58 90 61\" data-app-placeholder=\"Type Text\">En Savoir Plus</a></div>\n                    </div>\n                </div>\n                <div class=\"col-12 col-lg-{{imageWidth}}\">\n                    <div class=\"image-wrapper\">\n                        <img src=\"@PROJECT_PATH@/assets/images/screenshot-3.jpg\" alt=\"Mobirise\">\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "features16-2o",
+          "_isUserblock": true,
+          "_cid": "sNS4KQVS5j",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
